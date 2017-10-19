@@ -79,6 +79,14 @@ const flowLayoutPropTypes = {
     'space-evenly',
   ]),
   stretch: PropTypes.bool,
+  alignContent: PropTypes.oneOf([
+    'flex-start',
+    'flex-end',
+    'center',
+    'space-between',
+    'space-around',
+    'stretch',
+  ]),
 }
 
 const FlowLayout = styled(consumeProps(flowLayoutPropTypes))`
@@ -88,7 +96,7 @@ const FlowLayout = styled(consumeProps(flowLayoutPropTypes))`
   flex-flow: ${({ direction }) => direction} ${({ wrap }) => normalizeWrap(wrap)};
   justify-content: ${({ justifyContent }) => justifyContent};
   align-items: ${({ stretch }) => (stretch ? 'stretch' : 'center')};
-  align-content: center;
+  align-content: ${({ alignContent }) => alignContent};
 `
 
 FlowLayout.displayName = 'FlowLayout'
@@ -100,6 +108,7 @@ FlowLayout.defaultProps = {
   wrap: false,
   justifyContent: 'flex-start',
   stretch: true,
+  alignContent: 'center',
 }
 
 // EXPORTS

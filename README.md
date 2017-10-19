@@ -63,6 +63,7 @@ import { FlowLayout } from 'react-misc';
   direction="row|row-reverse|column|column-reverse"
   wrap={boolean|'wrap|nowrap|wrap-reverse'}
   justifyContent="flex-start|flex-end|center|space-between|space-around|space-evenly"
+  alignContent="flex-start|flex-end|center|space-between|space-around|stretch"
   stretch={boolean}
 >
   <FlowLayout.Item
@@ -78,7 +79,7 @@ import { FlowLayout } from 'react-misc';
 ##### \<FlowLayout\>
 | Name | Default Value | Description |
 | -- | -- | -- |
-| direction, wrap, justifyContent | 'column', false, 'flex-start' | [Flex direction](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-3), [wrap](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-4) and [justifyContent](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-6) |
+| direction, wrap, justifyContent, alignContent | 'column', false, 'flex-start', 'center' | [Flex direction](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-3), [wrap](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-4), [justifyContent](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-6) and [alignContent](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-8) |
 | stretch | true | If the items should be stretched over the cross axis |
 
 ##### \<FlowLayout.Item\>
