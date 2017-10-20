@@ -32,6 +32,7 @@ const itemPropTypes = {
 }
 
 const Item = styled(consumeProps(itemPropTypes))`
+  display: flex;
   min-width: 0;
   max-width: none;
   min-height: 0;
