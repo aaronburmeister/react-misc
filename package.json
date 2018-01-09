@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:AaronBurmeister/react-misc.git"
+    "url": "git+git@github.com:hatsuo/react-misc.git"
   },
   "keywords": [
     "react",
@@ -26,9 +26,9 @@
   "author": "Aaron Burmeister",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AaronBurmeister/react-misc/issues"
+    "url": "https://github.com/hatsuo/react-misc/issues"
   },
-  "homepage": "https://github.com/AaronBurmeister/react-misc#readme",
+  "homepage": "https://github.com/hatsuo/react-misc#readme",
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",

@@ -100,7 +100,7 @@ Display basic error messages for a selection of HTTP status codes using [React I
 #### Usage
 
 You need to wrap this component into an `<IntlProvider>`.
-You can use custom translations for your language. Please look at [src/components/HttpError/messages.js](https://github.com/aaronburmeister/react-misc/blob/master/src/components/HttpError/messages.js) for the supported message types.
+You can use custom translations for your language. Please look at [src/components/HttpError/messages.js](https://github.com/hatsuo/react-misc/blob/master/src/components/HttpError/messages.js) for the supported message types.
 
 ```js
 import { HttpError } from 'react-misc';
